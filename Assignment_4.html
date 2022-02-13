@@ -1,0 +1,105 @@
+<!--and hidden see-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html forms</title>
+    </head>
+    <body>
+        <h3>FORMS</h3>
+        <hr/>
+        <form name="reg">
+            <table border="1px">
+                <tr>
+                    <th colspan="5"> user registration</th>
+                </tr>
+                <tr>
+                    <td>ACC ID</td>
+                    <td><input type="number" name="accid" value="457869" readonly/><td/>
+                </tr>
+                <tr>
+                    <td>secret</td>
+                    <td><input type="hidden" name="secret" value="6683640670"/><td/>
+                </tr>
+                <tr>
+                    <td>Full name</td>
+                    <td><input type="text" name="fullname" value="" required/><td/>
+                </tr>
+            
+            <tr>
+                <td>Email address</td>
+                <td><input type="email" name="emailaddress" value=""/><td/>
+            </tr>
+        
+            <tr>
+                <td>Mobile</td>
+                <td><input type="text" name="mobile" value=""/><td/>
+            </tr>
+    
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" value=""/><td/>
+            </tr>
+
+            <tr>
+                <td>URL</td>
+                <td><input type="url" name="url" value=""/><td/>
+            </tr>
+            <tr>
+                <td>gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male"/>male
+                    <input type="radio" name="gender" value="female"/>female
+
+                </td>
+            </tr>
+            <tr>
+                <td>skills</td>
+                <td>
+                    <input type="checkbox" name="skills"[] value="html"/>html
+                    <input type="checkbox" name="gender"[] value="css"/>css
+                    <input type="checkbox" name="gender"[] value="boot"/>boot
+
+                </td>
+            </tr>
+            <tr>
+                <td>country</td>
+                <td>
+                <select name="country">
+                    <option value="choose country">choose country</option>
+                    <option value="ind">ind</option>
+                    <option value="pak">pak</option>
+                    <option value="usa">usa</option>
+                </select> 
+                <td/>
+            </tr>
+            <tr>
+                <td> area of expertise</td>
+                <td>
+                    <select name="area of expertise" multiple>
+                    <option value="expertise">expertise</option>
+                    <option value="html">html</option>
+                    <option value="css">css</option>
+                    <option value="java">java</option>
+                    <option value="c">c</option>
+                    <option value="python">python</option>
+                
+                </td>
+            </tr>
+            <tr>
+                <td><input type="file" name="file_upload"></td>
+            </tr>
+            <tr>
+                <td>description</td>
+                  <td><textarea name="description"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="submit" value="submit"/>
+                    <input type="reset" name="reset" value="reset"/>
+                </td>
+            </tr>
+            </table>
+        </form>
+    </body>
+</html>
